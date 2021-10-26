@@ -13,6 +13,7 @@ function sort()
         if(elem != '' && elem != undefined && parseInt(elem) != NaN)
         unsortedArray.push(parseInt(elem));
         });
+    //sorting
     for(i=1;i<=unsortedArray.length; i++){
         for(j=0; j<i;j++)
         {
